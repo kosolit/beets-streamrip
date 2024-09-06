@@ -4,4 +4,4 @@ RUN yum update -y && \
     yum install -y git python3-pip
 
 # Install Beets
-pip install beets
+RUN pip install beets
